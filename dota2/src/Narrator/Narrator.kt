@@ -1,5 +1,5 @@
 package Narrator
 
-interface Narrator<T>  {
-    fun narrate (event: String)
+interface Narrator {
+    fun narrate (event: String): String
 }
